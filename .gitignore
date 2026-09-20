@@ -1,0 +1,24 @@
+# Secrets - never commit
+.wavespeed_key
+*.wavespeed_key*
+.env
+
+# Project state that carries a live public bucket URL (see README, "Keep your bucket URL out of git")
+clips.json
+refs-r2.json
+
+# Generated state and media, if a project is ever built inside this checkout
+tempo.json
+segments.json
+wavespeed-log.jsonl
+audio/
+renders/
+video/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
